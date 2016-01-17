@@ -1,0 +1,624 @@
+@charset "UTF-8";
+p{
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 28px;
+	text-indent: 0px;
+	letter-spacing: 0.4px;
+	text-align: justify;
+}
+
+h1{
+	font-family: montserrat;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	text-align: center;
+	line-height: 82px;
+}
+
+h2{
+	text-align: center;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 200;	
+}
+
+h3{
+	font-family: source-sans-pro;
+	font-style: italic;
+	font-weight: 200;
+	font-size: 16px;
+	text-align: left;
+	line-height: 32px;
+}
+
+li{
+	list-style-position: outside;
+	list-style-image: none;
+	list-style-type: none;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 26px;
+	text-indent: 0px;
+	letter-spacing: 0.4px;
+}
+
+img{
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.video{
+	display:block;
+	margin: auto;
+	margin-top:100px;
+	width:800px;
+		
+}
+
+.bannerheadline{
+	background-color: #CEC4B8;
+	margin: auto;
+	display: block;
+	height: 50px;
+}
+
+.bannerheadline p{
+	color: #ffffff;
+	text-align: center;
+	font-size: 18px;
+	display: block;
+	margin: auto;
+	padding-top: 12px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 200;
+}
+
+.top-picture{
+	display: block;
+	margin: auto;
+	height: 400px;
+	width: auto;
+	background-image: url(img/Benji-Uni-small.jpg);
+	background-size: 110% auto;
+	background-attachment: scroll;
+	-webkit-box-shadow: inset 0 5px 40px -10px #0C0C0C;
+	box-shadow: inset 0 5px 40px -10px #0C0C0C;
+	background-position: -100px 40%;
+	
+}
+
+#top-picture-Lebenslauf{
+	background-image: url(img/Lebenslauf1.jpg);
+	background-size: 100% auto;
+	background-position: 0px 80%;
+}
+
+#top-picture-AboutMe{
+	background-image: url(img/Unibild.jpg);
+	background-size: 100% auto;
+	background-position: 0px 40%;
+}
+
+#top-picture-Projekte{
+	background-image: url(img/_MG_8692.jpg);
+	background-size: 100% auto;
+	background-position: 0px 40%;
+}
+
+#top-picture-ProjectGO{
+	background-image: url(img/Dieburg_Schloss_Fechenbach.jpg);
+	background-size: 100% auto;
+	background-position: 0px 40%;
+}
+
+#top-picture-Bioflow{
+	background-image: url(img/Bildschirmfoto%202015-04-03%20um%2020.03.45.png);
+	background-size: 100% auto;
+	background-position: 0px 100%;
+}
+
+#top-picture-3DRendering{
+	background-image: url(img/Schlafzimmer2.jpg);
+	background-size: 100% auto;
+	background-position: 0px 40%;
+}
+
+#top-picture-Spielentwicklung{
+	background-image: url(img/Bildschirmfoto%202014-06-16%20um%2012.01.08.png);
+	background-size: 100% auto;
+	background-position: 0px 40%;
+}
+
+#top-picture-DLRG{
+	background-image: url(img/Bildschirmfoto%202015-04-03%20um%2020.15.53.png);
+	background-size: 100% auto;
+	background-position: 0px 40%;
+}
+
+.top-headline{
+	display: block;
+	height: 200px;
+	width: 900px;
+	margin: auto;
+	padding-top: 140px;
+	text-align:center	
+}
+
+#startheadline{
+	padding-top: 140px;
+	padding-left: 400px;
+}
+
+.top-headline h1{
+	font-size: 54px;
+	color: #ffffff;
+	text-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+	font-weight: 600;
+	font-family: source-sans-pro;
+	font-style: normal;
+	text-transform: none;
+}
+
+.top-headline p{
+	font-size: 18px;
+	color: #ffffff;
+	text-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+	margin: auto;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 200;
+	text-align: center;
+}
+
+.Einleitung{
+	display:inline-block;	
+}
+
+.maintext{
+	display: block;
+	width: 900px;
+	margin:auto	
+}
+
+.topicbox{
+	display: inline-block;
+	width: 33.33333%;
+	height: 250px;
+	margin: auto;
+	float: left;
+	-webkit-box-shadow: inset 0px 0px 50px rgba(0,0,0,0.50);
+	box-shadow: inset 0px 0px 50px rgba(0,0,0,0.50);
+}
+
+#topic-aboutme{
+	background-image: url(img/Unibild.jpg);
+	background-size: 120% auto;
+	background-position: 50% 0%;
+}
+
+#topic-Lebenslauf{
+	background-image: url(img/Lebenslauf2.jpg);
+	background-size: 110% auto;
+	background-position: 0% 50%;
+}
+
+#topic-Projekte{
+	background-image: url(img/_MG_8692.jpg);
+	background-size: 110% auto;
+	background-position: 50% 0%;
+}
+
+#topic-ProjectGO{
+	background-image: url(img/Dieburg_Schloss_Fechenbach.jpg);
+	background-size: 100% auto;
+	background-position: 0% 30%;
+	width: 50%;
+	height: 300px;
+}
+
+#topic-BioFlow{
+	background-image: url(img/Bildschirmfoto%202015-04-03%20um%2020.03.45.png);
+	background-size: 100% auto;
+	background-position: 0% 100%;
+	width: 50%;
+	height: 300px;
+}
+
+#topic-3DRendering{
+	background-image: url(img/Schlafzimmer2.jpg);
+	background-size: 120% auto;
+	background-position: 50% 50%;
+}
+
+#topic-Spielentwicklung{
+	background-image: url(img/Bildschirmfoto%202014-06-16%20um%2012.01.08.png);
+	background-size: auto 120%;
+	background-position: 50% 0%;
+}
+
+#topic-DLRG{
+	background-image: url(img/Bildschirmfoto%202015-04-03%20um%2020.15.53.png);
+	background-size: 120% auto;
+	background-position: 0% 50%;
+}
+
+.topicboxtext{
+	display: inline-block;
+	/*background:rgba(206,196,184,0.95)*/;
+	width: 100%;
+	height: 100%;	
+	margin-top: 0px;
+}
+
+.topicboxtextinhalt{
+	margin-top: 110px;	
+}
+
+#topicboxtextinhalt-BioFlow{
+	margin-top: 130px;
+}
+
+#topicboxtextinhalt-ProjectGO{
+	margin-top: 130px;
+}
+
+.topicboxtext h2{
+	color: #ffffff;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 28px;
+	line-height: 36px;
+	text-shadow: 0px 0px 25px rgba(0,0,0,0.75);
+}
+
+.topics{
+	display: inline-block;
+	width: 100%;
+	margin-top:15px;	
+	background-color: #000000;
+}
+
+.Topic-Inhalt{
+	width: 100%;
+	margin:auto	
+}
+
+.bottombanner{
+	background-color: #CEC4B8;
+	height: 50px;
+	display: block;
+	margin-top: 100px;
+}
+
+#startbottombanner{
+	margin-top: -5px;
+}
+
+.bottombanner p{
+	color: #ffffff;
+	text-align: center;
+	display: block;
+	margin: auto;
+	padding-top: 12px;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 200;
+	transition: all 0.2s;	
+}
+
+.bottombanner p :hover{
+	text-decoration: none;	
+	letter-spacing: 10px;
+	transition: all 0.2s;		
+}
+
+.bottombanner :hover{
+	text-decoration: none;	
+	letter-spacing: 10px;
+	transition: all 0.2s;	
+}
+
+
+#Webapp p{
+	color: #ffffff;
+	background-color: #CEC4B8;
+	display: block;
+	margin: auto;
+	margin-top: 40px;
+	width: 180px;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 200;
+	list-style: none;
+	text-align: center;
+	border: solid 1px;
+	border-color: #CEC4B8;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	transition: all 0.2s;
+}
+
+#Webapp p:hover{
+  cursor: pointer;
+  color: #CEC4B8;
+  background-color: transparent;
+  border-color: #CEC4B8;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+#Webapp :hover{
+  cursor: pointer;
+  color: #CEC4B8;
+  background-color: transparent;
+  border-color: #CEC4B8;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+
+#BioFlow-Video{
+	display: block;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;	
+}
+
+#DLRG-Website-Bild{
+	display: block;
+	margin: auto;
+	width: 800px;
+	height:700px;;
+	background-image: url(img/Bildschirmfoto%202015-04-21%20um%2018.12.13.png);
+	background-size: 100% auto;	
+}
+
+#DLRG-Website-Bild img{
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+#DLRG-Website-Bild :hover{
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+#3DLeuchturmVGL1{
+	display: block;
+	margin: auto;
+	width: 800px;
+	height:700px;;
+	background-image: url(img/Bildschirmfoto%202015-04-21%20um%2018.12.13.png);
+	background-size: 100% auto;	
+}
+
+#3DLeuchturmVGL1 img{
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+#3DLeuchturmVGL1 :hover{
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+#Leuchturm1 {
+	display: block;
+	width: 800px;
+	height: 450px;
+	margin: auto;
+	margin-top: 50px;
+	background-image:url(img/LeuchtturmNo1_Nacht2.jpg);
+	background-size: 100% auto;	
+}
+
+#Leuchturm1 img{
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+#Leuchturm1 :hover{
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+#Leuchturm2 {
+	display: block;
+	width: 800px;
+	height: 450px;
+	margin: auto;
+	margin-top: 50px;
+	background-image: url(img/LeuchtturmNo2_Nacht2.jpg);
+	background-size: 100% auto;	
+}
+
+#Leuchturm2 img{
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+#Leuchturm2 :hover{
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+#Leuchturm3 {
+	display: block;
+	width: 800px;
+	height: 450px;
+	margin: auto;
+	margin-top: 50px;
+	background-image: url(img/LeuchtturmNo3_Nacht.jpg);
+	background-size: 100% auto;	
+}
+
+#Leuchturm3 img{
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+#Leuchturm3 :hover{
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.kontakt{
+	display: block;
+	background-color:rgba(206,196,184,1.00);
+	width: auto;
+	margin-left: 50%;	
+	padding: 25px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top: 50px;
+}
+
+#Lebenslauf-Inhalt{
+	display: block;
+	margin-top: -265px;	
+}
+
+#Fliegende-Kugeln{
+	margin-top: 50px;	
+}
+
+#wanted_demo{
+	display: block;
+	width:800px;
+	margin: auto;
+	margin-top: 50px;	
+}
+
+#ProjectGO-video{
+	margin-top: 50px;
+	margin-bottom: 50px;	
+}
+
+#contactme p{
+	color: #ffffff;
+	background-color: #CEC4B8;
+	display: block;
+	margin: auto;
+	margin-top: 100px;
+	width: 280px;
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 200;
+	text-align: center;
+	border: solid 1px;
+	border-color: #CEC4B8;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	transition: all 0.2s;
+	overflow-x: scroll;
+}
+
+#contactme p:hover{
+  cursor: pointer;
+  color: #CEC4B8;
+  background-color: transparent;
+  border-color: #CEC4B8;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+#contactme :hover{
+	cursor: pointer;
+	color: #CEC4B8;
+	background-color: transparent;
+	border-color: #CEC4B8;
+	transition: all 0.2s;
+	text-decoration: none;
+}
+
+
+a:hover { text-decoration: none}
+
+#DLRG-Trailer-video{
+	display: block;
+	width:800px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+
+#Serious-Games-Bild{
+	display: block;
+	margin: auto;
+	width: 800px;
+	height:auto;;
+	background-image: url(img/SeriousGames2.jpg);
+	background-size: 100% auto;	
+}
+
+#Serious-Games-Bild img{
+	opacity: 1;
+	transition: all 0.5s;
+
+}
+
+#Serious-Games-Bild :hover{
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+#profilepic{
+	width: 190px;
+	height: auto;
+	margin-bottom: -250px;
+	margin-top: 70px;
+	float:right;
+}
+
+#en-projects {
+	display: block;
+	width: 900px;
+	text-align: center;
+}
+
+.language{
+	display: block;	
+	width: 500px;
+	float: right;
+	margin-top:-48px;
+}
+
+.language img{
+	float:right;
+	margin: 0;
+	margin-top: -50px;
+	opacity: 0.75;
+}
+
+.language p{
+	color: #CEC4B8;
+	text-align: right;
+	padding-right: 60px;
+	transition: all 0.2s;
+	letter-spacing: 3px;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: source-sans-pro;
+	font-style: normal;
+	font-weight: 200;
+	padding-top: 10px;
+}
+/*
+.language :hover{
+	color: #ffffff;
+	text-decoration: none;	
+	letter-spacing: 5px;
+	transition: all 0.2s;		
+}
+*/
