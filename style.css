@@ -614,6 +614,14 @@ a:hover { text-decoration: none}
 	font-weight: 200;
 	padding-top: 10px;
 }
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  { /* STYLES GO HERE */
+	p{
+		font-size: 35px;
+	}
+}
 /*
 .language :hover{
 	color: #ffffff;
