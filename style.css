@@ -108,7 +108,7 @@ img{
 }
 
 #top-picture-Projekte{
-	background-image: url(img/_MG_8692.jpg);
+	background-image: url(img/MG_8692.jpg);
 	background-size: 100% auto;
 	background-position: 0px 40%;
 }
@@ -213,7 +213,7 @@ img{
 }
 
 #topic-Projekte{
-	background-image: url(img/_MG_8692.jpg);
+	background-image: url(img/MG_8692.jpg);
 	background-size: 110% auto;
 	background-position: 50% 0%;
 }
@@ -615,13 +615,7 @@ a:hover { text-decoration: none}
 	padding-top: 10px;
 }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  { /* STYLES GO HERE */
-	p{
-		font-size: 35px;
-	}
-}
+
 /*
 .language :hover{
 	color: #ffffff;
